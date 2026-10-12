@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE10AD000000000000000010 /* CaptionSRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10AD000000000000000001 /* CaptionSRT.swift */; };
+		AE10AD000000000000000011 /* OnDeviceCaptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10AD000000000000000002 /* OnDeviceCaptionService.swift */; };
+		AE10AD000000000000000012 /* ReloadedGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10AD000000000000000003 /* ReloadedGlass.swift */; };
+		AE10AD000000000000000020 /* CaptionSRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10AD000000000000000001 /* CaptionSRT.swift */; };
+		AE10AD000000000000000021 /* OnDeviceCaptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10AD000000000000000002 /* OnDeviceCaptionService.swift */; };
+		AE10AD000000000000000022 /* ReloadedGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10AD000000000000000003 /* ReloadedGlass.swift */; };
 		020A4909B475FEF2466A63A0 /* VLCDownloadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B785438BB91E3F75B6B42B1E /* VLCDownloadProgressView.m */; };
 		0A83D7D26F3FCA84F5BF9DF2 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		0F007EB12C2B46440042A95F /* VLCMLMedia+isWatched.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F007EB02C2B46440042A95F /* VLCMLMedia+isWatched.m */; };
@@ -1754,6 +1760,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE10AD000000000000000001 /* CaptionSRT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reloaded/CaptionSRT.swift; sourceTree = "<group>"; };
+		AE10AD000000000000000002 /* OnDeviceCaptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reloaded/OnDeviceCaptionService.swift; sourceTree = "<group>"; };
+		AE10AD000000000000000003 /* ReloadedGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reloaded/ReloadedGlass.swift; sourceTree = "<group>"; };
 		09DF5C43BEEACDF6DB606E06 /* libPods-VLC-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VLC-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F007EAF2C2B46440042A95F /* VLCMLMedia+isWatched.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VLCMLMedia+isWatched.h"; sourceTree = "<group>"; };
 		0F007EB02C2B46440042A95F /* VLCMLMedia+isWatched.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VLCMLMedia+isWatched.m"; sourceTree = "<group>"; };
@@ -4836,6 +4845,9 @@
 				7D0C209628C89C9900CCFFEF /* Subtitles Downloading */,
 				8D15A1EE22B0FB1900CFA758 /* Queue */,
 				416443852048419E00CAC646 /* DeviceMotion.swift */,
+				AE10AD000000000000000001 /* CaptionSRT.swift */,
+				AE10AD000000000000000002 /* OnDeviceCaptionService.swift */,
+				AE10AD000000000000000003 /* ReloadedGlass.swift */,
 			);
 			name = Playback;
 			path = Sources/Playback;
@@ -6446,6 +6458,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE10AD000000000000000010 /* CaptionSRT.swift in Sources */,
+				AE10AD000000000000000011 /* OnDeviceCaptionService.swift in Sources */,
+				AE10AD000000000000000012 /* ReloadedGlass.swift in Sources */,
 				7D55A8532A03BE610009E90E /* VLCNonInteractiveWindowSceneDelegate.m in Sources */,
 				7D04E1CC2AB0B5FB003AD39F /* VLCDonationViewController.m in Sources */,
 				7DC27EA730569F7000D33BEE /* PlaybackSpeedControlsView.swift in Sources */,
@@ -6828,6 +6843,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE10AD000000000000000020 /* CaptionSRT.swift in Sources */,
+				AE10AD000000000000000021 /* OnDeviceCaptionService.swift in Sources */,
+				AE10AD000000000000000022 /* ReloadedGlass.swift in Sources */,
 				7DA5143C2EF82B63000C9995 /* VLCNonInteractiveWindowSceneDelegate.m in Sources */,
 				7DA5143D2EF82B63000C9995 /* VLCDonationViewController.m in Sources */,
 				7DA5143E2EF82B63000C9995 /* URL+isExcludedFromBackup.swift in Sources */,
